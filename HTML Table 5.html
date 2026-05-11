@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Table</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse; 
+                padding: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th rowspan="4">#</th>
+                <th style="text-align: center;">Part Number</th>
+                <th rowspan="2" style="text-align: center;">Order Qty</th>
+                <th rowspan="2" style="text-align: center;">Cost</th>
+                <th rowspan="2" style="text-align: center;">Duty%</th>
+                <th rowspan="2" style="text-align: center;">Freight%</th>
+                <th rowspan="4" style="text-align: center;">UOM</th>
+                <th rowspan="4" style="text-align: center;">Vendor part Number</th>
+            </tr>
+            <tr>
+                <th style="text-align: center;">Part Description</th>
+            </tr>
+            <tr>
+                <th style="text-align: center;">Vendor Number</th>
+                <th rowspan="2" style="text-align: center;">Receive Qty</th>
+                <th rowspan="2" style="text-align: center;">Extended Cost</th>
+                <th rowspan="2" style="text-align: center;">Duty</th>
+                <th rowspan="2" style="text-align: center;">Freight</th>
+            </tr>
+            <tr>
+                <th style="text-align: center;">Vendor Name</th>
+            </tr>
+            <tr>
+                <td rowspan="4">1</td>
+                <td>100-10001</td>
+                <td rowspan="2">10</td>
+                <td rowspan="2">$5.00</td>
+                <td rowspan="2">3.0%</td>
+                <td rowspan="2">3.0%</td>
+                <td rowspan="4">EA</td>
+                <td rowspan="4">100001</td>
+            </tr>
+            <tr>
+                <td>description of part</td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td rowspan="2">20</td>
+                <td rowspan="2">$2.00</td>
+                <td rowspan="2">$0.15</td>
+                <td rowspan="2">$0.15</td>
+            </tr>
+            <tr>
+                <td>vendor name A</td>
+            </tr>
+            <tr>
+                <td rowspan="4">2</td>
+                <td>100-10002</td>
+                <td rowspan="2">10</td>
+                <td rowspan="2">$5.00</td>
+                <td rowspan="2">3.0%</td>
+                <td rowspan="2">3.0%</td>
+                <td rowspan="4">EA</td>
+                <td rowspan="4">E4-64b</td>
+            </tr>
+            <tr>
+                <td>description of part....</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td rowspan="2">20</td>
+                <td rowspan="2">$2.00</td>
+                <td rowspan="2">$0.15</td>
+                <td rowspan="2">$0.15</td>
+            </tr>
+            <tr>
+                <td>vendor name B</td>
+            </tr>
+        </table>
+    </body>
+</html>
