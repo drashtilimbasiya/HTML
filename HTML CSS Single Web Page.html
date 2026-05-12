@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Items Store</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:lightskyblue;
+        }
+
+        header{
+            background:lightblue;
+            color:black;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:lightgray;
+            text-align:center;
+            padding:10px;
+        }
+
+        nav a{
+            color:black;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+        }
+
+        .hero{
+            width:100%;
+            height:400px;
+            background:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') no-repeat center center;
+            background-size:cover;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            font-size:40px;
+            font-weight:bold;
+        }
+
+        .container{
+            padding:30px;
+        }
+
+        .products{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            width:250px;
+            border-radius:10px;
+            overflow:hidden;
+            text-align:center;
+            box-shadow:0 0 10px gray;
+        }
+
+        .card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            padding:10px;
+        }
+
+        .card p{
+            padding:10px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:lightblue;
+            color:black;
+            padding:10px 20px;
+            margin-bottom:15px;
+            text-decoration:none;
+            border-radius:5px;
+        }
+
+        .details-section{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:30px;
+            padding:40px;
+            flex-wrap:wrap;
+        }
+
+        .form-box{
+            background:white;
+            width:400px;
+            height:420px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        .form-box h2{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:10px;
+            margin-top:10px;
+            border:1px solid gray;
+            border-radius:5px;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            background:lightblue;
+            color:black;
+            border:none;
+            margin-top:15px;
+            border-radius:5px;
+            font-size:16px;
+        }
+
+        .side-image img{
+            width:400px;
+            height:420px;
+            border-radius:10px;
+            object-fit:cover;
+            box-shadow:0 0 10px gray;
+        }
+
+        footer{
+            background:lightblue;
+            color:black;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Electronic World</h1>
+        <p>Best Electronic Items Collection</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="hero">
+        Latest Electronic Gadgets
+    </div>
+
+    <div class="container">
+
+        <h2 style="text-align:center; margin-bottom:30px;">
+            Our Products
+        </h2>
+
+        <div class="products">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Mobile">
+                <h3>Smart Phone</h3>
+                <p>Price : ₹25,000</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg" alt="Laptop">
+                <h3>Laptop</h3>
+                <p>Price : ₹50,000</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1593784991095-a205069470b6" alt="TV">
+                <h3>Smart TV</h3>
+                <p>Price : ₹40,000</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0" alt="Tablet">
+                <h3>Tablet</h3>
+                <p>Price : ₹20,000</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="details-section">
+
+        <div class="form-box">
+
+            <h2>User Details Form</h2>
+
+            <form>
+
+                <input type="text" placeholder="Enter Your Name">
+
+                <input type="email" placeholder="Enter Your Email">
+
+                <input type="number" placeholder="Enter Mobile Number">
+
+                <textarea rows="4" placeholder="Enter Address"></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+
+        <div class="side-image">
+            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661" alt="Electronics">
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Electronic World | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
