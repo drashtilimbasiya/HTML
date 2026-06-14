@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1 align="center">User Registration</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Mobile Number:</label><br>
+            <input type="tel" name="mobile" required><br><br>
+
+            <label>Date of Birth:</label><br>
+            <input type="date" name="dob"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Account Details</legend>
+
+            <label>Username:</label><br>
+            <input type="text" name="username" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" required><br><br>
+
+            <label>Confirm Password:</label><br>
+            <input type="password" name="confirm_password" required><br><br>
+
+            <label>Security Question:</label><br>
+            <select>
+                <option>Select a Question</option>
+                <option>Your Favorite Color?</option>
+                <option>Your First School Name?</option>
+                <option>Your Pet Name?</option>
+            </select>
+            <br><br>
+
+            <label>Answer:</label><br>
+            <input type="text" name="answer"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Unique Features</legend>
+
+            <label>Upload Profile Picture:</label><br>
+            <input type="file"><br><br>
+
+            <label>Select Your Skills:</label><br>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+            <input type="checkbox"> React
+            <br><br>
+
+            <label>Short Bio:</label><br>
+            <textarea rows="4" cols="40"></textarea>
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" required>
+        I agree to the Terms & Conditions
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
